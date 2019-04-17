@@ -1,0 +1,22 @@
+.cart-item {
+  padding: 10px 0;
+  border: solid 1px #7038ff;
+  margin-bottom: 10px;
+}
+
+.remove-button {
+  color: #fff;
+  font-weight: bolder;
+  background-color: #7038ff;
+  border: solid 1px #7038ff;
+  margin-left: 5px;
+}
+
+.remove-button:hover {
+  opacity: 0.9;
+}
+
+.product-image {
+  min-width: 120px;
+  max-width: 150px;
+}

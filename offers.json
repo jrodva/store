@@ -1,0 +1,16 @@
+{
+  "offers": [
+    {
+      "id": 3,
+      "code": "VOUCHER",
+      "minNumArticles": 2,
+      "discount": [1,2]
+    },
+    {
+      "id": 4,
+      "code": "TSHIRT",
+      "minNumArticles": 3,
+      "discount": [1]
+    }
+  ]
+}

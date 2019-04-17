@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "code": "VOUCHER",
+      "name": "Voucher",
+      "photoUrl": "https://goofy-shannon-8fec5b.netlify.com/voucher.jpg",
+      "alt": "CabiVoucher",
+      "description": "Super voucher",
+      "price": "5",
+      "stock": "19"
+    },
+    {
+      "id": 2,
+      "code": "TSHIRT",
+      "name": "T-Shirt",
+      "photoUrl": "https://goofy-shannon-8fec5b.netlify.com/tshirt.jpg",
+      "alt": "cabify t-shirt",
+      "description": "Wonderful T-Shirt with our logo",
+      "price": 20,
+      "stock": 30
+    },
+    {
+      "id": 3,
+      "code": "MUG",
+      "name": "Mug",
+      "photoUrl": "https://goofy-shannon-8fec5b.netlify.com/mug.jpg",
+      "alt": "cabify mug",
+      "description": "Wonderful mug with our logo",
+      "price": 7.5,
+      "stock": 45
+    }
+  ]
+}

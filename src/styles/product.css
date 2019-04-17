@@ -1,0 +1,33 @@
+.data-content{
+  padding-left: 15px;
+}
+
+.product-price{
+  font-weight: 600;
+}
+
+.add-to-cart{
+  color: #fff;
+  background-color: #7038ff;
+  border-radius: 30px;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.lessMoreQuantity{
+  color: #fff;
+  background-color: #7038ff;
+  border: none;
+  margin-top: 5px;
+  width: 34px;
+  border-radius: 34px;
+  height: 34px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.cart-selector{
+  padding-left: 0;
+}

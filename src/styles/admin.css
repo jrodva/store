@@ -1,0 +1,20 @@
+.admin-options{
+    margin-top: 150px;
+}
+.admin-option{
+    border: 1px solid #7038ff;
+    padding-top: 20px;
+    display: block;
+}
+.admin-option:hover{
+    text-decoration: none;
+}
+.not-logged-advice{
+    font-weight: bold;
+}
+.login-button{
+    cursor: pointer;
+    color: #7038ff;
+    border: solid 1px #7038ff;
+    margin: 0 auto;
+}
