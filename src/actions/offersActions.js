@@ -2,8 +2,7 @@ import { GET_OFFERS, DELETE_OFFER, ADD_OFFER, GET_OFFER, EDIT_OFFER } from '../a
 import axios from 'axios';
 
 export const getOffers = () => async dispatch => {
-  console.log('getOffers', process.env);
-  const response = await axios.get(process.env.REACT_OFFERS);
+  const response = await axios.get(process.env.REACT_APP_OFFERS);
   dispatch({
     type: GET_OFFERS,
     payload: response.data
@@ -11,7 +10,7 @@ export const getOffers = () => async dispatch => {
 }
 
 export const getOffer = id => async dispatch => {
-  const response = await axios.get(`${process.env.REACT_OFFERS}/${id}`);
+  const response = await axios.get(`${process.env.REACT_APP_OFFERS}/${id}`);
   dispatch({
     type: GET_OFFER,
     payload: response.data
@@ -19,7 +18,7 @@ export const getOffer = id => async dispatch => {
 }
 
 export const deleteOffer = id => async dispatch => {
-  await axios.delete(`${process.env.REACT_OFFERS}/${id}`);
+  await axios.delete(`${process.env.REACT_APP_OFFERS}/${id}`);
   dispatch({
     type: DELETE_OFFER,
     payload: id
@@ -27,7 +26,7 @@ export const deleteOffer = id => async dispatch => {
 }
 
 export const addOffer = offer => async dispatch => {
-  const response = await axios.post(process.env.REACT_OFFERS, offer);
+  const response = await axios.post(process.env.REACT_APP_OFFERS, offer);
   dispatch({
     type: ADD_OFFER,
     payload: response.data
@@ -35,7 +34,7 @@ export const addOffer = offer => async dispatch => {
 }
 
 export const editOffer = offer => async dispatch => {
-  const response = await axios.put(`${process.env.REACT_OFFERS}/${offer.id}`, offer);
+  const response = await axios.put(`${process.env.REACT_APP_OFFERS}/${offer.id}`, offer);
   dispatch({
     type: EDIT_OFFER,
     payload: response.data
