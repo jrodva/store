@@ -1,4 +1,4 @@
-import { GET_CART, ADD_TO_CART, DELETE_FROM_CART } from '../actions/types';
+import { GET_CART, ADD_TO_CART, DELETE_FROM_CART, DELETE_CART } from '../actions/types';
 
 const initialState = {
   cart: []
@@ -20,6 +20,11 @@ export default function(state = initialState, action) {
       return {
         ...state,
         cart: state.cart.filter(product => product.id !== action.payload )
+      }
+    case DELETE_CART:
+      return {
+        ...state,
+        cart: []
       }
     default:
       return state;

@@ -1,4 +1,4 @@
-import { GET_CART, ADD_TO_CART, DELETE_FROM_CART } from '../actions/types';
+import { GET_CART, ADD_TO_CART, DELETE_FROM_CART, DELETE_CART } from '../actions/types';
 
 export const getCart = () => {
   return {
@@ -19,3 +19,10 @@ export const deleteFromCart = (id) => {
     payload: id
   }
 }
+
+export const deleteCart = () => {
+  return {
+    type: DELETE_CART
+  }
+}
+

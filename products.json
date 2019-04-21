@@ -8,7 +8,7 @@
       "alt": "CabiVoucher",
       "description": "Super voucher",
       "price": "5",
-      "stock": "19"
+      "stock": 17
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "alt": "cabify t-shirt",
       "description": "Wonderful T-Shirt with our logo",
       "price": 20,
-      "stock": 30
+      "stock": 29
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "alt": "cabify mug",
       "description": "Wonderful mug with our logo",
       "price": 7.5,
-      "stock": 45
+      "stock": 44
     }
   ]
 }
